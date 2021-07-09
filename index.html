@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Quest</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="game">
+			<div class="game__body">
+				<div class="game__title"></div>
+				<div class="game__img">
+					<div class="img-wrap" style="transform: rotateY(0000deg)">
+						<img class="img-front" src="img/ss.jpg" alt="">
+						<img class="img-back" src="img/ss.jpg" alt="">
+					</div>
+				</div>
+				<div class="game__message-wrapper">
+					<div class="game__message"></div>
+				</div>
+				<div class="game__monster-message-wrapper">
+					<div class="game__monster-message"></div>
+				</div>
+				<div class="game__items"></div>
+				<div class="game__form">
+					<a href="#" class="game__no-btn">нет</a>
+					<a href="#" class="game__yes-btn">да</a>
+					<input type="submit" class="game__left-btn" value="назад">
+					<input type="submit" class="game__rigth-btn" value="вперед">
+				</div>
+				<ul class="game__bag">
+					<li class="game__bag-weapon"></li>
+					<li class="game__bag-armor"></li>
+				</ul>
+				<ul class="game__hero">
+					<li>Жизни: <span class="game__hero-hp"></span></li>
+					<li>Атака: <span class="game__hero-atk"></span></li>
+					<li>Защита: <span class="game__hero-def"></span></li>
+					<li>Золото: <span class="game__hero-gold"></span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
